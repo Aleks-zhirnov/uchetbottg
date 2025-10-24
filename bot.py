@@ -1,4 +1,3 @@
-import os
 import logging
 import json
 from datetime import datetime
@@ -25,7 +24,7 @@ orders_db = {}
 current_order = {}
 
 # Токен бота - ЗАМЕНИТЕ НА ВАШ!
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8465090691:AAGx-sekLkXf4Si14wVeU09rWWrXiOS92KI')
+BOT_TOKEN = "8465090691:AAGx-sekLkXf4Si14wVeU09rWWrXiOS92KI"
 
 def number_to_words_ru(num):
     """Конвертирует число в слова на русском"""
